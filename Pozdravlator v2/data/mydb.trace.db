@@ -1,0 +1,4 @@
+2025-02-09 17:29:18.496460+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "CHARACTER VARYING to BOOLEAN"
+Data conversion error converting "CHARACTER VARYING to BOOLEAN"; SQL statement:
+update BirthdaysInfo set fullName = ? and dayBirthday = ? and monthBirthday = ? and yearBirthday =? where fullName = ? and dayBirthday = ? and monthBirthday = ? and yearBirthday =? [22018-232]
